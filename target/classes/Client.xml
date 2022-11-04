@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.ecommerce.metier.Client">
+        <table name="client" schema="commerce" catalog=""/>
+        <attributes>
+            <id name="idc">
+                <column name="idc"/>
+            </id>
+            <basic name="nom">
+                <column name="nom"/>
+            </basic>
+            <basic name="prenom">
+                <column name="prenom"/>
+            </basic>
+            <basic name="email">
+                <column name="email"/>
+            </basic>
+            <basic name="tel">
+                <column name="tel"/>
+            </basic>
+            <basic name="regDate">
+                <column name="regDate"/>
+            </basic>
+            <basic name="login">
+                <column name="login"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

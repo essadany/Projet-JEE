@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.ecommerce.metier.Wishlist">
+        <table name="wishlist" schema="commerce" catalog=""/>
+        <attributes>
+            <id name="idw">
+                <column name="idw"/>
+            </id>
+            <basic name="idc">
+                <column name="idc"/>
+            </basic>
+            <basic name="libelle">
+                <column name="libelle"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

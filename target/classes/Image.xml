@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.ecommerce.metier.Image">
+        <table name="image" schema="commerce" catalog=""/>
+        <attributes>
+            <id name="idimg">
+                <column name="idimg"/>
+            </id>
+            <basic name="url">
+                <column name="url"/>
+            </basic>
+            <basic name="isprincipal">
+                <column name="isprincipal"/>
+            </basic>
+            <basic name="idp">
+                <column name="idp"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

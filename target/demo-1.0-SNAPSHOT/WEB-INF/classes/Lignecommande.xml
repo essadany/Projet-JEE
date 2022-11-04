@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.ecommerce.metier.Lignecommande">
+        <table name="lignecommande" schema="commerce" catalog=""/>
+        <attributes>
+            <id name="idlc">
+                <column name="idlc"/>
+            </id>
+            <basic name="idcmd">
+                <column name="idcmd"/>
+            </basic>
+            <basic name="idp">
+                <column name="idp"/>
+            </basic>
+            <basic name="qte">
+                <column name="qte"/>
+            </basic>
+            <basic name="prixAchat">
+                <column name="prix_achat"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
